@@ -1,0 +1,213 @@
+@media (max-width:991px) {
+    .writewho {
+        position: relative;
+        right: 0;
+        text-align: center;
+    }
+    .navbar-nav li {
+        margin: auto;
+    }
+    .end {
+        text-align: center;
+    }
+    .end .fontlogo a {
+        width: fit-content;
+        padding: 10px;
+    }
+    .end ul {
+        align-items: center;
+    }
+    .end img {
+        width: 30%;
+    }
+    .end .lo::before {
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .locaction .ph::after {
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navimg {
+        padding: 0 !important;
+    }
+    .navblack .navwrite {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .emails {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .price {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .price::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    li::marker {
+        color: white;
+    }
+    .cost {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Luxrue::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .Luxrue ul li {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .vipsession::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .membershibs {
+        text-align: center;
+    }
+    .recovery ul li {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .reshaping ul li {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .sliver ul li {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .recovery::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .reshaping::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .sliver::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .Golden::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .Golden ul li {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .salllary ul li {
+        display: flex;
+        font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .disc {
+        width: fit-content !important;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cost p {
+        width: auto;
+    }
+}
+
+@media (max-width:1399px) {
+    .alllll {
+        display: inline-block;
+        padding: 0 !important;
+    }
+    .alllll div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .Luxrue {
+        height: fit-content;
+    }
+    .Luxrue ul {
+        align-self: flex-start;
+    }
+    .Luxrue::before {
+        font-size: 13px;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        width: fit-content;
+    }
+    .vipsession {
+        display: inline-block;
+        padding: 0 !important;
+    }
+    .vipsession div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .piccen p {
+        margin-right: 20px;
+    }
+}

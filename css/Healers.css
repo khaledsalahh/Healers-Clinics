@@ -1,0 +1,794 @@
+        body {
+            font-family: "Cairo", sans-serif !important;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .container-fluid {
+            --bs-gutter-x: 0 !important;
+        }
+        
+        .fontlogo a {
+            color: white;
+        }
+        
+        .fontlogo a:hover {
+            color: #8fcae3;
+        }
+        
+        .background {
+            height: 70vh;
+            position: relative;
+        }
+        
+        .background .backimg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            filter: brightness(0.9);
+            object-fit: cover;
+            background-attachment: fixed;
+        }
+        
+        .navbar {
+            position: relative !important;
+            z-index: 1;
+        }
+        
+        .navbar-collapse {
+            flex-grow: 0 !important;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-collapse ul {
+            height: 100%;
+        }
+        
+        .navbar-nav {
+            align-items: center !important;
+        }
+        
+        .navbar-nav li {
+            margin-right: 50px;
+            display: flex;
+            align-items: center;
+            transition: all 0.5s;
+        }
+        
+        .navbar-nav li a {
+            color: white;
+        }
+        
+        .navbar-brand {
+            width: 80px !important;
+            height: 80px !important;
+            position: relative;
+            border-radius: 50%;
+        }
+        
+        .navbar-brand img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .navimg {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+        
+        .background .bg-body-tertiary {
+            background-color: rgba(0, 0, 0, 0.3) !important;
+        }
+        
+        .navbar-nav a {
+            transition: all 0.5s;
+            letter-spacing: 2px !important;
+        }
+        
+        .navbar-nav a:hover {
+            color: #19c8fa !important;
+        }
+        
+        .write .p1 {
+            font-size: 30px !important;
+            color: #fff;
+            text-transform: capitalize;
+            letter-spacing: 10px;
+            font-weight: bold;
+        }
+        
+        .write .p2 {
+            font-size: 30px !important;
+            color: #fff;
+            letter-spacing: 7px;
+            font-weight: 100 !important;
+        }
+        
+        .logo-cont-1 {
+            margin-top: 50px;
+        }
+        
+        .pic1 {
+            width: fit-content;
+            padding: 0 30px;
+        }
+        
+        .background .navblack {
+            background-color: #2d343d;
+        }
+        
+        .navblack .navwrite {
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        p {
+            margin-bottom: 0 !important;
+        }
+        
+        .fontlogo {
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .life {
+            display: flex;
+            justify-content: center;
+            height: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .life .write {
+            margin-top: auto;
+        }
+        
+        .emails {
+            display: flex;
+            align-items: center;
+        }
+        
+        .emails svg {
+            margin-right: 5px;
+        }
+        
+        .text-start h3 {
+            margin-bottom: 15px;
+        }
+        
+        .off,
+        .cer {
+            color: #464646 !important;
+            font-weight: 700;
+        }
+        
+        .cer {
+            font-size: 20px;
+        }
+        
+        .ser {
+            font-weight: 500;
+        }
+        
+        .med {
+            color: #8fcae3;
+            font-weight: 800;
+        }
+        
+        .arrow {
+            color: #19c8fa;
+        }
+        
+        .gap-lg-0 .text-start {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: flex-end;
+        }
+        
+        .gap-lg-0 .text-start button {
+            align-self: flex-start;
+        }
+        
+        .videos {
+            position: relative;
+            object-fit: cover !important;
+        }
+        
+        .videos video {
+            filter: brightness(0.6);
+            object-fit: cover !important;
+        }
+        
+        .butto {
+            letter-spacing: 1px
+        }
+        
+        .writevideo {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .writevideo a {
+            color: white;
+            text-decoration: none;
+            letter-spacing: 4px;
+        }
+        
+        .writevideo a:hover {
+            color: #8fcae3;
+        }
+        
+        .writevideo span {
+            color: #fff;
+            font-size: 23px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .writevideo h2 {
+            font-weight: 800;
+            font-size: 47px;
+        }
+        
+        .writevideo .butto {
+            padding: 10px 30px;
+            letter-spacing: 1.5px;
+        }
+        
+        .playaudio {
+            position: absolute;
+            bottom: 50px;
+            z-index: 2;
+            padding: 10px 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .row {
+            --bs-gutter-x: 0 !important;
+        }
+        
+        .writewho {
+            background-color: #ffffff;
+            padding: 40px !important;
+            align-self: center;
+            position: absolute;
+            right: 140px;
+            border-radius: 20px;
+            z-index: 1;
+        }
+        
+        .writewho h3 {
+            color: #666769;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        
+        .div-who img {
+            filter: brightness(0.6);
+        }
+        
+        .price {
+            border: 1px solid #fd7e14;
+            padding: 20px 40px 0 !important;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .piccen p {
+            margin-right: 20px;
+        }
+        
+        .price::before {
+            content: "CRANIAL OSTEOPATHY";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .pricee::before {
+            content: "VISCERAL MANIPULATION";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            right: 35px;
+        }
+        
+        .cost {
+            justify-content: space-around
+        }
+        
+        .cost p {
+            width: fit-content;
+        }
+        
+        .disc {
+            width: fit-content !important;
+            margin-left: 20px;
+        }
+        
+        .sp {
+            position: relative;
+        }
+        
+        .sp::before {
+            position: absolute;
+            content: "";
+            width: 50%;
+            height: 2px;
+            background-color: red;
+            top: 15px;
+            left: 0;
+            transform: rotate(305deg);
+        }
+        
+        .piche {
+            filter: brightness(0.7);
+            text-align: end;
+        }
+        
+        .he {
+            height: fit-content !important;
+        }
+        
+        .he img {
+            height: 250px !important;
+            width: 100%;
+            border-radius: 25px;
+        }
+        
+        .Luxrue {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .Luxrue::before {
+            content: "LUXURY MIXTURE";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .Luxrue ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .allprice {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .allprice {
+            border: 1px solid #fd7e14;
+            padding: 20px 0 !important;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .allprice div {
+            text-align: center;
+        }
+        
+        .allprice div li,
+        p {
+            font-weight: bold;
+        }
+        
+        .allprice h3 {
+            background-color: #fd7e14;
+            border-radius: 20px;
+            padding: 0 10px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .allprice .sp::before {
+            width: 50%;
+            top: 5px !important;
+            left: 50% !important;
+            transform: rotate(305deg) translateX(-50%) !important;
+        }
+        
+        .vipsession::before {
+            content: "VIP SESSIONS";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .membershibs::before {
+            content: "MEMBERSHIPS ";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .FullBack {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .FullBack::before {
+            content: "M2T BLADE MASSAGE  ";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .additives {
+            justify-content: center;
+        }
+        
+        .additives::before {
+            content: "ADDITIVES ";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .recovery {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            padding: 20px 0;
+            margin: auto;
+            justify-content: center;
+        }
+        
+        .recovery ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .recovery ul {
+            width: 100%;
+        }
+        
+        .recovery::before {
+            content: "RECOVERY SESSION";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .reshaping {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .reshaping ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .reshaping ul {
+            width: 100%;
+        }
+        
+        .reshaping::before {
+            content: "RE-SHAPING";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .sliver {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .sliver ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .sliver ul {
+            width: 100%;
+        }
+        
+        .sliver::before {
+            content: "SILVER PACKAGE";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .Golden {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .Golden ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .Golden ul {
+            width: 100%;
+        }
+        
+        .Golden::before {
+            content: "GOLDEN PACKAGE";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .diamond::before {
+            content: "DIAMOND PACKAGE";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .lipo {
+            margin: auto;
+        }
+        
+        .lipo::before {
+            content: "LIPOLYSIS PACKAGE";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        ul {
+            width: 100%;
+            padding: 20px !important;
+        }
+        
+        .nut::before {
+            content: "NUTRITION";
+            position: absolute;
+            top: -20px;
+            background-color: white;
+            color: #fd7e14;
+            font-weight: bolder;
+            font-size: 21px;
+            letter-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .salllary {
+            border: 1px solid #fd7e14;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .salllary ul li {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .positionn {
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+        }
+        
+        .end .fontlogo {
+            width: 100% !important;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            text-align: center;
+        }
+        
+        .end img {
+            width: 50%;
+        }
+        
+        .end .fontlogo a {
+            background-color: #0e76bc;
+            border-radius: 50%;
+            width: fit-content;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+        
+        .end li {
+            list-style: none;
+            color: #a6a6a6;
+            margin-bottom: 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .end ul {
+            margin: 0 !important;
+            padding: 0 !important;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .end h3 {
+            letter-spacing: 3px;
+        }
+        
+        .end .lo::before {
+            position: absolute;
+            content: "";
+            width: 90%;
+            height: 2px;
+            left: 0;
+            bottom: 0;
+            background-color: #404040;
+        }
+        
+        .end a {
+            text-decoration: none;
+            width: fit-content;
+        }
+        
+        li {
+            width: fit-content;
+        }
+        
+        .locaction .ph::after {
+            position: absolute;
+            content: "";
+            width: 90%;
+            height: 2px;
+            left: 0;
+            top: 0;
+            background-color: #404040;
+        }
+        
+        .end span {
+            color: #a6a6a6;
+        }
+        
+        .smallph img {
+            width: 75%;
+        }
